@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="HelloWorld/src"/>
+	<classpathentry excluding="com/app/itera/|com/app/list/" kind="src" path="src"/>
+	<classpathentry kind="src" path="src/com/app/itera"/>
+	<classpathentry kind="src" path="src/com/app/list"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
