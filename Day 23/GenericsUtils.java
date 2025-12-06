@@ -1,11 +1,19 @@
 import java.util.List;
-import java.util.Comparator;
-import java.util.Optional;
-import java.util.Arrays;
-import java.util.Collections;
+import java.util.Map;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Set;
+import java.util.function.BiConsumer;
+import java.util.function.BinaryOperator;
+import java.util.function.Function;
+import java.util.function.Supplier;
+import java.util.stream.Collector;
+import java.util.stream.Stream;
 
-public class GenericsUtils {
-	public static <T> findMax<? extends T>(List<? extends T> elements, Comparator<? super T> comparator) {
-		
+public class CustomCollectors {
+	public static <T, K, V> Collector<T, ?, Map<K, List<V>>> toListMap(
+			Function<? super T, ? extends K> keyMapper,
+			Function<? super T, ? extends V> valueMapper) {
+		Map<K,List<V>> map = 
 	}
 }

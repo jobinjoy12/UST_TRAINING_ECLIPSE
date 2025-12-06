@@ -2,15 +2,16 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+public class Person{}
+public class PersonSorter {Collections.sort(list)
 
-public class PersonSorter {
     public static List<Person> sortPeople(List<Person> people) {
         // Requirement: Return a NEW list. Do not modify the input.
         // If input is null, return empty list.
         if (people == null) return new ArrayList<>();
         
         List<Person> sortedList = new ArrayList<>(people);
-
+        // Collections.sort(sortedList);
         Collections.sort(sortedList, new Comparator<Person>() {
             @Override
             public int compare(Person p1, Person p2) {

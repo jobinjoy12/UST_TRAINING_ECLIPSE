@@ -1,0 +1,6 @@
+com\example\orm\service\LibraryService.class
+com\example\orm\model\Book.class
+com\example\orm\repository\AuthorRepository.class
+com\example\orm\OrmIntroApplication.class
+com\example\orm\model\Author.class
+com\example\orm\repository\BookRepository.class

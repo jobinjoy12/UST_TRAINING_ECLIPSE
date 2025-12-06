@@ -28,8 +28,8 @@ class StringUtilsTest {
 	@Test
 	void test() {
 		StringUtils.reverseString("true");
-		Assertions.assertEquals("hello",StringUtils.reverseString("hello"));
-		Assertions.assertEquals("Java",StringUtils.reverseString("Java"));
+		Assertions.assertEquals("olleh",StringUtils.reverseString("hello"));
+		Assertions.assertEquals("avaJ",StringUtils.reverseString("Java"));
 		Assertions.assertEquals("a",StringUtils.reverseString("a"));
 	}
 	

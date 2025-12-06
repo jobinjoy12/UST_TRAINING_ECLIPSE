@@ -1,0 +1,15 @@
+INSERT INTO book (title, author, isbn) VALUES ('The Lord of the Rings', 'J.R.R. Tolkien', '978-0618260274');
+INSERT INTO book (title, author, isbn) VALUES ('Pride and Prejudice', 'Jane Austen', '978-0141439518');
+INSERT INTO book (title, author, isbn) VALUES ('To Kill a Mockingbird', 'Harper Lee', '978-0446310789');
+INSERT INTO book (title, author, isbn) VALUES ('1984', 'George Orwell', '978-0451524935');
+INSERT INTO book (title, author, isbn) VALUES ('The Great Gatsby', 'F. Scott Fitzgerald', '978-0743273565');
+INSERT INTO book (title, author, isbn) VALUES ('Moby Dick', 'Herman Melville', '978-0142437247');
+INSERT INTO book (title, author, isbn) VALUES ('War and Peace', 'Leo Tolstoy', '978-0140447939');
+INSERT INTO book (title, author, isbn) VALUES ('The Catcher in the Rye', 'J.D. Salinger', '978-0316769174');
+INSERT INTO book (title, author, isbn) VALUES ('Don Quixote', 'Miguel de Cervantes', '978-0060934347');
+INSERT INTO book (title, author, isbn) VALUES ('Ulysses', 'James Joyce', '978-0679722762');
+INSERT INTO book (title, author, isbn) VALUES ('One Hundred Years of Solitude', 'Gabriel Garcia Marquez', '978-0060883287');
+INSERT INTO book (title, author, isbn) VALUES ('The Odyssey', 'Homer', '978-0140268867');
+INSERT INTO book (title, author, isbn) VALUES ('The Hobbit', 'J.R.R. Tolkien', '978-0345339683');
+INSERT INTO book (title, author, isbn) VALUES ('Alice''s Adventures in Wonderland', 'Lewis Carroll', '978-0141321745');
+INSERT INTO book (title, author, isbn) VALUES ('Brave New World', 'Aldous Huxley', '978-0060850524');
